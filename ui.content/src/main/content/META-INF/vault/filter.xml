@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/EniSlovenia" mode="merge"/>
+    <filter root="/content/EniSlovenia" mode="merge"/>
+    <filter root="/content/dam/EniSlovenia" mode="merge">
+        <exclude pattern="/content/dam/EniSlovenia(/.*)?"/>
+        <include pattern="/content/dam/EniSlovenia/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/EniSlovenia/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/EniSlovenia" mode="merge"/>
+</workspaceFilter>
